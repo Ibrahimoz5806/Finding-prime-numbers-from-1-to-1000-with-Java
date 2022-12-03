@@ -3,12 +3,12 @@
 public class find_prime_number {
 
 
-    public static boolean primenumber(int sayi){
+    public static boolean primenumber(int number){
 
 
-        for (int i = 2; i < sayi; i++){
+        for (int i = 2; i < number; i++){
 
-            if (sayi % i == 0){
+            if (number % i == 0){
                 return false;
             }
         }
@@ -31,6 +31,4 @@ public class find_prime_number {
 
 
 }
-
-
 
